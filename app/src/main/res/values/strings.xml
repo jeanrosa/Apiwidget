@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">PetroWidget</string>
+    <string name="action_settings">Settings</string>
+    <string name="appwidget_text">Petro Widget</string>
+    <string name="configure">Configuración</string>
+    <string name="add_widget">Agregar</string>
+    <string name="content_main_name">Petro Widget</string>
+    <string name="dash">DASH</string>
+    <string name="btc">BTC</string>
+    <string name="ltc">LTC</string>
+    <string name="ptr">PTR</string>
+    <string name="eth">ETH</string>
+    <string name="usd">USD</string>
+    <string name="dashprice">USD: ...\nEUR: ...</string>
+    <string name="ptrprice">USD: ...\nEUR: ...</string>
+    <string name="btcprice">USD: ...\nEUR: ...</string>
+    <string name="ltcprice">USD: ...\nEUR: ...</string>
+    <string name="ethprice">USD: ...\nEUR: ...</string>
+    <string name="ptrfijo"> <b>PTR:</b> ...</string>
+    <string name="usdfijo"> <b>USD:</b> ...</string>
+    <string name="descripcion_principal"><big><b>PetroWidget</b></big>\n\n
+        La PetroWidget para Android te permite tener a mano los valores de los principales criptoactivos en USD y EUR, en tiempo real, en la pantalla de tu dispositivo.\n\n
+        <big><b>Para agregar la PetroWidget:</b></big>\n\n
+        1- Haz un toque prolongado en el escritorio del equipo\n
+        2- Selecciona “widgets” en el menú, luego busca la PetroWidget\n
+        3- Selecciona (toque prolongado) y arrastra a tu escritorio (puedes modificar el lugar cuando quieras)\n\n
+        <big><b>Información importante:</b></big>\n\n
+        La PetroWidget incluye los valores de los siguientes criptoactivos: Petro (PTR), Bitcoin (BTC), Litecoin (LTC), DASH, Bitcoin Cash (BCH), Ethereum (ETH) y Ripple (XRP).\n
+        Por defecto, los criptoactivos que se muestran son PTR BTC y DASH.\n
+        •	Podrás seleccionar 3 para mostrarlos permanentemente en tu pantalla (tienes la posibilidad de cambiarlos siempre que quieras), presionando el símbolo de configuración de tu widget.\n
+        •	Los valores se actualizarán cada 30 minutos (requiere conexión a Internet) y se obtienen de la API oficial del Petro API PRICE (más información en www.petro.gob.ve/desarrolladores.html).\n
+        •	Puedes refrescar el valor de los criptoactivos tocando el símbolo de configuración de tu widget y luego seleccionando la opción “Refrescar”.\n
+        •	Puedes seleccionar entre la opción “Modo claro” o “Modo oscuro”, dependiendo de tu fondo de pantalla (tienes la posibilidad de cambiarlos siempre que quieras).\n
+        Encuentra los términos y condiciones, y otras herramientas para gestión y manejo de criptoactivos en www.petro.gob.ve
+    </string>
+
+
+
+</resources>

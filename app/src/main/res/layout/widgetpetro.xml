@@ -1,0 +1,201 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/widget_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/blaBack"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/widgetPrincipal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:baselineAligned="false"
+        android:orientation="horizontal"
+        android:padding="@dimen/widget_margin">
+
+
+        <LinearLayout
+            android:id="@+id/indicador1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.3"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="5dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imgMoneda"
+                    android:layout_width="20sp"
+                    android:layout_height="20sp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/dashicon" />
+
+                <TextView
+                    android:id="@+id/txMoneda"
+                    style="@style/Texto.Bold"
+                    android:text="@string/dash"/>
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/txPrecio"
+                style="@style/Texto"
+                android:text="@string/dashprice" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="#8BF2F4F7" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.3"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="5dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imgMoneda2"
+                    android:layout_width="20sp"
+                    android:layout_height="20sp"
+                    android:src="@drawable/petroicon" />
+
+                <TextView
+                    android:id="@+id/txMoneda2"
+                    style="@style/Texto.Bold"
+                    android:text="@string/ptr" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/txPrecio2"
+                style="@style/Texto"
+                android:text="@string/ptrprice" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="#8BF2F4F7" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.3"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="5dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imgMoneda3"
+                    android:layout_width="20sp"
+                    android:layout_height="20sp"
+                    android:src="@drawable/btcicon" />
+
+                <TextView
+                    android:id="@+id/txMoneda3"
+                    style="@style/Texto.Bold"
+                    android:text="@string/btc" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/txPrecio3"
+                style="@style/Texto"
+                android:text="@string/btcprice" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/error"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:baselineAligned="false"
+        android:orientation="horizontal"
+        android:visibility="gone"
+        android:padding="@dimen/widget_margin">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/error">
+        </ImageView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/widgetSecundario"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:padding="2dp">
+
+        <LinearLayout
+            android:id="@+id/bsPetro"
+            android:visibility="visible"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight=".70"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="20sp"
+                android:layout_height="20sp"
+                android:layout_gravity="center"
+                android:src="@drawable/petroicon" />
+
+            <TextView
+                android:id="@+id/txPTRfijo"
+                style="@style/Texto"
+                android:text="@string/ptrfijo" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/dolarPetro"
+            android:visibility="visible"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="20sp"
+                android:layout_height="20sp"
+                android:layout_gravity="center"
+                android:src="@drawable/dolaricon" />
+
+
+            <TextView
+                android:id="@+id/txUSDfijo"
+                style="@style/Texto"
+                android:text="@string/usdfijo" />
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right">
+        <ImageView
+            android:id="@+id/buttonSetup"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="5dp"
+            android:src="@drawable/setup"/>
+        </RelativeLayout>
+    </LinearLayout>
+
+</LinearLayout>
